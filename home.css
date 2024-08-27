@@ -1,0 +1,400 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* .navbar{
+    background: transparent;
+} */
+
+/* .start {
+    height: auto;
+    padding: 0;
+    margin: 0px;  
+}
+
+.start .left-section {
+    background-color: #00103d;
+    padding: 20px;
+}
+
+.start .common{
+    margin-left: 20%;
+    
+}
+
+.start .left-section h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'exo';
+    text-decoration: none;
+}
+
+.start .left-section p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.start p strong{
+    font-size: 1.6rem;
+    color: rgb(246, 199, 143);
+}
+.start .left-section p.text-small {
+    font-size: 0.9rem;
+}
+
+
+.start .right-section img{
+    width: 100%;
+} */
+
+.start {
+    background-color: #6c757d;
+    display: flex;
+}
+
+.start .left-section {
+    background-color: #00103d;
+    /* display: flex; */
+    align-items: center; 
+}
+
+.start .common {
+    margin-left: 20%;
+    text-align: left;
+    color: white;
+    font-family: 'exo';
+    font-size: 2.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-decoration: none;
+}
+
+.start .left-section h2 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'exo';
+}
+
+.start .left-section p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Roboto';
+}
+
+.start p strong {
+    font-size: 1.6rem;
+    color: rgb(246, 199, 143);
+}
+
+.start .left-section p.text-small {
+    font-size: 0.9rem;
+}
+
+
+
+
+
+.form1 {
+    position: relative;
+    color: white;
+    font-family: 'exo';
+    font-size: 1.2rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.formbox {
+    display: flex;
+    align-items: center;
+    height: auto;
+    box-sizing: border-box;
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.form-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.form-container p {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'exo';
+    margin-left: 20px;   
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    text-wrap: wrap;
+    max-width: fit-content;
+}
+
+.form-group {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.formbox input,
+select {
+    padding: 10px;
+    border: 2px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.formbox .btn {
+    width: 150px;
+    padding: 10px;
+    background-color: rgb(6, 6, 64);
+    color: white;
+    border: none;
+    text-align: center;
+    margin: 0 10px;
+}
+
+
+
+
+.overview .h1{
+    font-family: 'exo';
+}
+
+.overview span{
+    font-size: 0.9rem;
+}
+
+.overview .item {
+    display: flex;
+    align-items: center;
+}
+
+.overview .item span {
+    margin-left: 10px;
+}
+
+.difference {
+    background-color: rgb(29, 29, 114);
+    color: white;
+}
+
+.difference img{
+    width: auto;
+    height: auto;
+}
+
+.difference .mt-4{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.difference .common{
+    text-align: center;
+    font-family: 'exo';
+    font-size: 2.5rem;
+    color: rgb(241, 191, 116);
+}
+
+.difference .change{
+    font-size: 1.6rem;
+    color: rgb(241, 191, 116);
+}
+
+.difference .custom-list {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.difference .custom-list li::before {
+    content: '\2713';
+    color: white;
+    padding-right: 10px;
+}
+
+.difference .btn {
+    border: 2px solid white;
+    color: white;
+    border-radius: 0%;
+    margin-bottom: 90px;
+    width: auto ;
+}
+
+.difference .btn:hover {
+    background-color: rgb(74, 74, 250);
+}
+
+.invest{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.invest .size{
+    font-size: 2.5rem;
+    font-family: 'exo';
+
+}
+
+
+.gallery .gallery-item {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    margin-bottom: 5px;
+}
+
+#office {
+    background-image: url('images/office.jpg');
+}
+
+#coworking {
+    background-image: url('images/coworking.jpg');
+}
+
+#retail {
+    background-image: url('images/retail.jpg');
+}
+
+#suites {
+    background-image: url('images/suites.jpg');
+}
+
+#food-courts {
+    background-image: url('images/food.jpg');
+}
+
+#restaurants {
+    background-image: url('images/restaurant.jpg');
+}
+
+.gallery .overlay {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    padding: 60px 40px;
+}
+
+
+.payment-plan .btn{
+    border-radius: 0%;
+    margin-top: 60px;
+    background-color: rgb(74, 103, 248);
+    color: white;
+    margin-left: 45%;
+    width: auto;
+}
+
+.payment-plan .btn:hover{
+    background-color: rgb(27, 62, 239);
+    color: white;
+}
+
+.payment-plan .first{
+    font-size: 2.5rem;
+    margin-left: 15%;
+}
+
+.payment-plan .second{
+    font-size: 2.5rem;
+    margin-top: 0%;
+    margin-left: 15%;
+}
+
+.payment-plan .last{
+    margin-left: 15%;
+    font-size: 1rem;
+    margin-bottom: 60px;
+}
+
+
+.map .p-5{
+    background: url(images/growth-story-img2.jpg);
+}
+
+.map .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map .line-path {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    width: 80%;
+    height: 40%;
+}
+
+.SitePlan{
+    line-height: 0%;
+}
+
+
+.SitePlan .heading{
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-family: 'exo';
+    margin-left: 30px;
+}
+
+.SitePlan .last{
+    margin-bottom: 50px;
+    line-height: 3;
+    margin-left: 30px;
+    font-family: 'Roboto';
+}
+
+.SitePlan .first{
+    font-weight: bold;
+    margin-top: 0%;
+    font-family: 'exo';
+}
+
+.SitePlan .second{
+    font-family: 'Roboto';
+
+}
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    text-align: center;
+    border-top: 1px solid #dee2e6;
+}
+.footer .logo img {
+    max-width: 150px;
+    margin-bottom: 10px;
+    color: #212529;
+}
+.footer .disclaimer {
+    font-size: 12px;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+.footer .copyright {
+    font-size: 14px;
+    color: #212529;
+}
+.footer .rera {
+    font-weight: bold;
+    margin-top: 10px;
+}
+.footer a {
+    color: #212529;
+    text-decoration: none;
+}

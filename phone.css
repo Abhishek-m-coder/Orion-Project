@@ -1,0 +1,73 @@
+@media (max-width: 990px) {
+
+    .form1,
+    .form-container {
+        flex-direction: column;
+    }
+
+    .formbox p {
+        text-align: center;
+        margin-left: 0;
+        
+    }
+
+    .formbox .btn {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+    .start .row {
+        display: flex;
+        margin: 0;
+    }
+
+    .start .left-section,
+    .start .right-section {
+        /* flex: 1; */
+        padding: 0;
+        margin: 0;
+    }
+
+    .start .right-section img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Stack sections vertically on mobile and tablet */
+@media (max-width: 767px) {
+    .start .row {
+        display: block;
+    }
+
+    .start .left-section,
+    .start .right-section {
+        width: 100%;
+
+    }
+
+    .start .common {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .start .left-section h2 {
+        font-size: 2rem;
+    }
+
+    .start .left-section p {
+        font-size: 1rem;
+    }
+
+    .start .right-section img {
+        width: 100%;
+        height: auto;
+    }
+
+    .difference img{
+        width: 100%;
+        height: auto;
+    }
+}
